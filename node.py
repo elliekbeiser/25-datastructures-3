@@ -1,3 +1,7 @@
 # Implement your Node class here
 class Node:
-    pass # delete this line
+    def __init__(self, action):
+        self.action = action
+        self.next = None
+
+# action instead of value
